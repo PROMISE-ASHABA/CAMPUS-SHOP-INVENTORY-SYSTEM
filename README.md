@@ -6,7 +6,7 @@ University: Makerere University Business School
 Academic year: 2026/2027
 
 Group members
-ASHABA PROMISE          25/U/1240m    
+ASHABA PROMISE          25/U/1240   
 GUNE WINNIE PEACE        25/U/15042/PS
 ABER FORTUNATE           25/U/1234
 MUNGUDIT ARTHUR RYAN      25/U/15286/PS
