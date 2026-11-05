@@ -1,3 +1,9 @@
+/**
+ * Product class
+ * Models a single item sold in the campus shop.
+ * Uses private attributes with public getters and setters (encapsulation).
+ */
+
 package campusshopinventorymanagementsystem;
      //QUESTION ONE
 public class Product {
@@ -37,7 +43,7 @@ public class Product {
     
     //VALIDATION FOR STOCK
     public void setQuantity_in_stock(int stock) {
-    	  if(stock >= 0) {
+    	  if(stock >= 0) { // Accept the new stock only if it is zero or greater
     		this.quantity_in_stock = stock;
     	  }else {
     		System.out.println("Stock is not allowed to be negative");
