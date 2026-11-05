@@ -1,7 +1,7 @@
 package campusshopinventorymanagementsystem;
 
 public class Main {
-
+// Main class: entry point that creates and tests the Product objects
 	public static void main(String[] args) {
 		//CREATION OF OBJECTS
 		Product product_one = new Product("PO1","manuscript book","stationery",6000,20);
@@ -16,35 +16,36 @@ public class Main {
         System.out.println("MANUSCRIPT BOOK: "+ product_one.getQuantity_in_stock());
         
         //DISPLAYING DETAILS OF THE FIVE PRODUCTS AFTER BEING UPDATED
-        System.out.println("\n---ALL PRODUCTS AFTER BEING UPDATED---");
+        //Product One
+		System.out.println("\n---ALL PRODUCTS AFTER BEING UPDATED---");
         System.out.println("PRODUCT ID: "+product_one.getProduct_id());
         System.out.println("PRODUCT NAME: "+product_one.getProduct_name());
         System.out.println("PRODUCT CATEGORY: "+product_one.getProduct_category());
         System.out.println("UNIT PRICE: "+product_one.getUnit_price());
         System.out.println("QUANTITY IN STOCK: "+product_one.getQuantity_in_stock());
         System.out.println();
-        
+        //Products Two
         System.out.println("PRODUCT ID: "+product_two.getProduct_id());
         System.out.println("PRODUCT NAME: "+product_two.getProduct_name());
         System.out.println("PRODUCT CATEGORY: "+product_two.getProduct_category());
         System.out.println("UNIT PRICE: "+product_two.getUnit_price());
         System.out.println("QUANTITY IN STOCK: "+product_two.getQuantity_in_stock());
         System.out.println();
-        
+        //Product Three
         System.out.println("PRODUCT ID: "+product_three.getProduct_id());
         System.out.println("PRODUCT NAME: "+product_three.getProduct_name());
         System.out.println("PRODUCT CATEGORY: "+product_three.getProduct_category());
         System.out.println("UNIT PRICE: "+product_three.getUnit_price());
         System.out.println("QUANTITY IN STOCK: "+product_three.getQuantity_in_stock());
         System.out.println();
-        
+        //Product Four
         System.out.println("PRODUCT ID: "+product_four.getProduct_id());
         System.out.println("PRODUCT NAME: "+product_four.getProduct_name());
         System.out.println("PRODUCT CATEGORY: "+product_four.getProduct_category());
         System.out.println("UNIT PRICE: "+product_four.getUnit_price());
         System.out.println("QUANTITY IN STOCK: "+product_four.getQuantity_in_stock());
         System.out.println();
-        
+        //Product Five
         System.out.println("PRODUCT ID: "+product_five.getProduct_id());
         System.out.println("PRODUCT NAME: "+product_five.getProduct_name());
         System.out.println("PRODUCT CATEGORY: "+product_five.getProduct_category());
